@@ -9,13 +9,12 @@
 /* Begin PBXBuildFile section */
 		7304B3BFAFD2D4DCF88073F4 /* Pods_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90769BD0976BE5CA4E64E03 /* Pods_A.framework */; };
 		A4EDE5E822A8F94A00C89C0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EDE5E722A8F94A00C89C0E /* AppDelegate.m */; };
-		A4EDE5EB22A8F94A00C89C0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EDE5EA22A8F94A00C89C0E /* ViewController.m */; };
 		A4EDE5EE22A8F94A00C89C0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EDE5EC22A8F94A00C89C0E /* Main.storyboard */; };
 		A4EDE5F022A8F94B00C89C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4EDE5EF22A8F94B00C89C0E /* Assets.xcassets */; };
 		A4EDE5F322A8F94B00C89C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EDE5F122A8F94B00C89C0E /* LaunchScreen.storyboard */; };
 		A4EDE5F622A8F94B00C89C0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EDE5F522A8F94B00C89C0E /* main.m */; };
-		A4EDE64922A9002400C89C0E /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EDE64722A9002400C89C0E /* AViewController.m */; };
-		A4EDE64D22A900D200C89C0E /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EDE64C22A900D200C89C0E /* Target_A.m */; };
+		A4FDD32722AA641E00071453 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDD32322AA641E00071453 /* Target_A.m */; };
+		A4FDD32822AA641E00071453 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FDD32522AA641E00071453 /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,17 +23,15 @@
 		A4EDE5E322A8F94A00C89C0E /* A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4EDE5E622A8F94A00C89C0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4EDE5E722A8F94A00C89C0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A4EDE5E922A8F94A00C89C0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A4EDE5EA22A8F94A00C89C0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A4EDE5ED22A8F94A00C89C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4EDE5EF22A8F94B00C89C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4EDE5F222A8F94B00C89C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4EDE5F422A8F94B00C89C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4EDE5F522A8F94B00C89C0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A4EDE64722A9002400C89C0E /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
-		A4EDE64822A9002400C89C0E /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		A4EDE64B22A900D200C89C0E /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
-		A4EDE64C22A900D200C89C0E /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		A4FDD32322AA641E00071453 /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		A4FDD32422AA641E00071453 /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		A4FDD32522AA641E00071453 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		A4FDD32622AA641E00071453 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		B90769BD0976BE5CA4E64E03 /* Pods_A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,13 +85,9 @@
 		A4EDE5E522A8F94A00C89C0E /* A */ = {
 			isa = PBXGroup;
 			children = (
-				A4EDE64A22A900AD00C89C0E /* Targets */,
+				A4FDD32122AA641E00071453 /* A */,
 				A4EDE5E622A8F94A00C89C0E /* AppDelegate.h */,
 				A4EDE5E722A8F94A00C89C0E /* AppDelegate.m */,
-				A4EDE64822A9002400C89C0E /* AViewController.h */,
-				A4EDE64722A9002400C89C0E /* AViewController.m */,
-				A4EDE5E922A8F94A00C89C0E /* ViewController.h */,
-				A4EDE5EA22A8F94A00C89C0E /* ViewController.m */,
 				A4EDE5EC22A8F94A00C89C0E /* Main.storyboard */,
 				A4EDE5EF22A8F94B00C89C0E /* Assets.xcassets */,
 				A4EDE5F122A8F94B00C89C0E /* LaunchScreen.storyboard */,
@@ -104,11 +97,21 @@
 			path = A;
 			sourceTree = "<group>";
 		};
-		A4EDE64A22A900AD00C89C0E /* Targets */ = {
+		A4FDD32122AA641E00071453 /* A */ = {
 			isa = PBXGroup;
 			children = (
-				A4EDE64B22A900D200C89C0E /* Target_A.h */,
-				A4EDE64C22A900D200C89C0E /* Target_A.m */,
+				A4FDD32222AA641E00071453 /* Targets */,
+				A4FDD32522AA641E00071453 /* AViewController.m */,
+				A4FDD32622AA641E00071453 /* AViewController.h */,
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
+		A4FDD32222AA641E00071453 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				A4FDD32322AA641E00071453 /* Target_A.m */,
+				A4FDD32422AA641E00071453 /* Target_A.h */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -209,10 +212,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4EDE64922A9002400C89C0E /* AViewController.m in Sources */,
-				A4EDE5EB22A8F94A00C89C0E /* ViewController.m in Sources */,
-				A4EDE64D22A900D200C89C0E /* Target_A.m in Sources */,
+				A4FDD32822AA641E00071453 /* AViewController.m in Sources */,
 				A4EDE5F622A8F94B00C89C0E /* main.m in Sources */,
+				A4FDD32722AA641E00071453 /* Target_A.m in Sources */,
 				A4EDE5E822A8F94A00C89C0E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
