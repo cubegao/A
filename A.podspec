@@ -1,4 +1,4 @@
-
+#
 #  Be sure to run `pod spec lint BLAPIManagers.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "A/A/**/*.{h,m,swift}"
+  s.source_files  = "A/Pods/**/*.{h,m,swift}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
