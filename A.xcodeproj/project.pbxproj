@@ -101,8 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				A4FDD32222AA641E00071453 /* Targets */,
-				A4FDD32522AA641E00071453 /* AViewController.m */,
 				A4FDD32622AA641E00071453 /* AViewController.h */,
+				A4FDD32522AA641E00071453 /* AViewController.m */,
 			);
 			path = A;
 			sourceTree = "<group>";
@@ -127,6 +127,7 @@
 				A4EDE5DF22A8F94A00C89C0E /* Sources */,
 				A4EDE5E022A8F94A00C89C0E /* Frameworks */,
 				A4EDE5E122A8F94A00C89C0E /* Resources */,
+				4DCB37E120077B35D66A82D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,6 +184,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4DCB37E120077B35D66A82D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-A/Pods-A-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-A/Pods-A-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-A/Pods-A-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		ADE9281A6CA56BCE8ECB6D16 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
